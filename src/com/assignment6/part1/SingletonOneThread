@@ -1,0 +1,17 @@
+package com.assignment6.part1;
+
+public final class SingletonOneThread {
+    // create private field to keep object-singleton
+    private static instance: SingletonOneThread
+
+    //create private attributes
+
+    private SingletonOneThread(attribute) {
+        //initialize attributes
+    }
+
+    public static SingletonOneThread getInstance(String value) {
+        // call constructor if the object is called for the first time
+        // else return creted object
+    }
+}

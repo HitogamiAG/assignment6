@@ -1,0 +1,25 @@
+package com.assignment6.part1;
+
+public final class SingletonMultiThread {
+    // field must be defined as volatile for double-checked locking
+    private static volatile instance: SingletonMultiThread;
+
+
+    //create private attributes
+
+    private SingletonMultiThread(attribute) {
+        //initialize attributes
+    }
+
+    public static SingletonMultiThread getInstance(String value) {
+        //realize double-cheked locking method
+        SingletonMultiThread result = instance;
+        if result not null {
+            return result
+        }
+        //Synchronise class {
+            // call constructor if the object is called for the first time
+            // else return created object
+        }
+    }
+}
